@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Styles Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="home-button-container">
+            <button id="homeBtn" class="home-btn">
+                <i class="fas fa-home"></i> Home
+            </button>
+        </div>
+        <div class="search-container">
+            <input type="text" id="styleSearch" placeholder="Search styles...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="categories">
+            <div class="category" data-category="classic">
+                <h2>Classic & Traditional</h2>
+                <div class="styles-list"></div>
+            </div>
+            <div class="category" data-category="modern">
+                <h2>Modern & Contemporary</h2>
+                <div class="styles-list"></div>
+            </div>
+            <div class="category" data-category="digital">
+                <h2>Digital & Conceptual</h2>
+                <div class="styles-list"></div>
+            </div>
+            <div class="category" data-category="street">
+                <h2>Street/Urban & Illustration</h2>
+                <div class="styles-list"></div>
+            </div>
+            <div class="category" data-category="animation">
+                <h2>Animation & Related</h2>
+                <div class="styles-list"></div>
+            </div>
+            <div class="category" data-category="design">
+                <h2>Design-Centric</h2>
+                <div class="styles-list"></div>
+            </div>
+            <div class="category" data-category="other">
+                <h2>Other/Subgenres</h2>
+                <div class="styles-list"></div>
+            </div>
+        </div>
+    </nav>
+    <main class="content">
+        <div id="styleDisplay">
+            <div class="welcome-message">
+                <h1>Art Styles Catalog</h1>
+                <p>Select a style from the sidebar to view details</p>
+                <button id="showAllBtn" class="show-all-btn">Show All Styles</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
